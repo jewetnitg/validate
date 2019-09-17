@@ -53,8 +53,10 @@
     "testEnvironment": "node"
   },
   "files": [
-    "build"
+    "build",
+    "index.d.ts"
   ],
   "main": "build/schema.js",
+  "types": "index.d.ts",
   "license": "MIT"
 }
